@@ -1,0 +1,7 @@
+git clone
+git reset --hard <id-do-commit>
+-> Windows Date Change
+git add .
+git commit -m "new file"
+git rebase --onto HEAD origin/main main
+git push origin main --force
